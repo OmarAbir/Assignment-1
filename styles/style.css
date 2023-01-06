@@ -48,5 +48,101 @@
     border-radius: 5px;
     border: 0;
     padding: 20px 25px;
-margin-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+/* Previous year worked section styles */
+
+.plans-container {
+    margin: 130px 20px;
+}
+
+.plan-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.past-year-record {
+    display: flex;
+
+}
+
+.random-person {
+    padding: 130px 150px;
+}
+
+.record-description {
+    text-align: left;
+    margin-top: 350px;
+    margin-right: 150px;
+}
+
+.record-title {
+
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 25px;
+
+
+}
+
+.record-content {
+    font-weight: 400;
+    color: #444343;
+    margin-bottom: 15px;
+}
+
+.record-list {
+    margin-left: 10px;
+
+}
+
+/* Plans Section Styles */
+
+.plan-list {
+    display: flex;
+    margin: 50px 250px;
+    text-align: center;
+    gap: 80px;
+}
+
+.plan-list h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.a-message {
+    background-image: url('../images/gradient2.png'),url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+padding: 50px;
+  
+    border-radius: 8px;
+
+    text-align: left;
+    margin: 130px 200px;
+
+}
+
+.message-title {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    
+
+}
+
+.call {
+    color: #F15B22;
+    background-color: white;
+    border-radius: 5px;
+    border: 0;
+    padding: 20px 35px;
+    margin-top: 25px;
+    
+
 }
