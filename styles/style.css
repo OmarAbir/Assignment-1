@@ -1,5 +1,5 @@
 * {
-
+    padding: 0;
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
@@ -7,13 +7,15 @@
 /* banner Section Styles */
 
 .banner {
-    min-height: 100vh;
+
+    height: 80%;
     background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
     padding: 0 150px;
 }
 
 .banner-items {
+
     color: #151414;
     text-align: right;
     padding-top: 300px;
@@ -25,16 +27,14 @@
 
 .banner-title {
 
-
-    font-size: 65px;
+    font-size: 60px;
     font-weight: 700;
     margin-bottom: 25px;
-
-
 
 }
 
 .banner-description {
+
     margin-bottom: 30px;
 
 }
@@ -48,16 +48,18 @@
     border-radius: 5px;
     border: 0;
     padding: 20px 25px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 /* Previous year worked section styles */
 
 .plans-container {
+
     margin: 130px 20px;
 }
 
 .plan-title {
+
     color: #151414;
     font-size: 40px;
     font-weight: 700;
@@ -66,15 +68,18 @@
 }
 
 .past-year-record {
+
     display: flex;
 
 }
 
 .random-person {
+
     padding: 130px 150px;
 }
 
 .record-description {
+
     text-align: left;
     margin-top: 350px;
     margin-right: 150px;
@@ -82,20 +87,21 @@
 
 .record-title {
 
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 25px;
+    font-weight: 800;
     margin-bottom: 25px;
 
 
 }
 
 .record-content {
-    font-weight: 400;
+
     color: #444343;
     margin-bottom: 15px;
 }
 
 .record-list {
+
     margin-left: 10px;
 
 }
@@ -103,32 +109,37 @@
 /* Plans Section Styles */
 
 .plan-list {
+
     display: flex;
-    margin: 50px 250px;
+    margin: 50px 290px;
     text-align: center;
-    gap: 80px;
+    gap: 50px;
 }
 
 .plan-list h3 {
+
+    color: #151414;
+    font-size: 20px;
+    font-weight: 700;
     margin-top: 20px;
     margin-bottom: 10px;
 
 }
 
 .a-message {
+
     background-image: url('../images/gradient2.png'), url('../images/watch.png');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px;
-
     border-radius: 8px;
-
     text-align: left;
     margin: 130px 200px;
 
 }
 
 .message-title {
+
     color: white;
     font-size: 40px;
     font-weight: 700;
@@ -136,12 +147,17 @@
 
 }
 
-.call {
+
+.call-btn {
+
+    font-size: 20px;
+    font-weight: 600;
+
     color: #F15B22;
     background-color: white;
     border-radius: 5px;
     border: 0;
-    padding: 20px 35px;
+    padding: 15px 30px;
     margin-top: 25px;
 
 
@@ -150,7 +166,9 @@
 
 /* footer section styles */
 
+
 .footer {
+
     background-color: #151414;
     display: flex;
     padding: 130px 230px;
@@ -158,6 +176,7 @@
 }
 
 .footer-head {
+
     color: #F8F8F8;
     font-size: 40px;
     font-weight: 700;
@@ -166,6 +185,7 @@
 }
 
 .description {
+
     color: rgba(255, 255, 255, 0.75);
     margin-top: 15px;
     margin-bottom: 20px;
@@ -173,11 +193,13 @@
 }
 
 .logo {
+
     margin-right: 15px;
     width: 40px;
 }
 
 .subs-title {
+
     color: white;
     font-size: 25px;
     font-weight: 600;
@@ -186,9 +208,10 @@
 }
 
 .email {
+
     font-size: 18px;
     background-color: #151414;
-    padding: 20px 20px;
+    padding: 15px 25px;
     border-radius: 8px;
     margin-top: 30px;
     border: 1px solid #F8F8F8;
@@ -196,6 +219,11 @@
 }
 
 .subs-btn {
+    color: #F15B22;
+    background-color: white;
+    border-radius: 5px;
     font-size: 20px;
     font-weight: 600;
+    padding: 15px 30px;
+    margin-top: 15px;
 }
